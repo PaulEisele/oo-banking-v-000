@@ -1,15 +1,14 @@
 class Transfer
 
-  attr_accessor :sender, :receiver, :status
-  attr_reader
+  attr_reader :sender, :receiver, :status, :amount
 
   @@all = []
 
   def initialize()
-  #  @receiver =
-  #  @sender =
-  #  @status = "pending"
-  #  @transfer =
+    @receiver = receiver
+    @sender = sender
+    @status = "pending"
+    @amount = amount
   end
 
   def valid?
