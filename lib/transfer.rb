@@ -6,10 +6,10 @@ class Transfer
   @@all = []
 
   def initialize()
-    @receiver =
-    @sender =
-    @status = "pending"
-    @transfer =
+  #  @receiver =
+  #  @sender =
+  #  @status = "pending"
+  #  @transfer =
   end
 
   def valid?
