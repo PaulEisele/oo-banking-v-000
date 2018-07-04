@@ -4,9 +4,9 @@ class Transfer
 
   @@all = []
 
-  def initialize()
-    @receiver = receiver
+  def initialize(sender, receiver, amount)
     @sender = sender
+    @receiver = receiver
     @status = "pending"
     @amount = amount
   end
